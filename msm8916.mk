@@ -19,3 +19,12 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
+
+# Gatekeeper HAL
+PRODUCT_PACKAGES += \
+   android.hardware.gatekeeper@1.0-impl
+
+# Launcher3
+PRODUCT_PACKAGES += \
+    Launcher3
+
