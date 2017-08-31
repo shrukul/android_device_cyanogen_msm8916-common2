@@ -17,6 +17,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    libcnefeatureconfig \
-    librmnetctl \
+#    libcnefeatureconfig \
+#    librmnetctl \
     libxml2
