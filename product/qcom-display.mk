@@ -1,5 +1,6 @@
 # Display
 PRODUCT_PACKAGES += \
+    copybit.msm8916 \
     android.hardware.graphics.allocator@2.0-impl \
     android.hardware.graphics.allocator@2.0-service \
     android.hardware.graphics.composer@2.1-impl \
