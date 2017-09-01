@@ -10,7 +10,8 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8916 \
     libgenlock \
     libtinyxml \
-    memtrack.msm8916
+    memtrack.msm8916 \
+    libxml2
 
 # Permissions
 ifeq ($(TARGET_BOARD_PLATFORM_VARIANT),msm8939)
